@@ -45,29 +45,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - JavaScript
-
-### What I learned
- 1. Removing the default border around an input text box. 
-  This code helps to do that.
-  
-    input:focus, textarea:focus, select:focus{
-        outline: none;
-    }
-    
-    
- 2. I also learnt about some client-side validation tool in Javascript.
-    This function helps to check if the value of the input matches the format expected. for example, an email input. You can go through my full code to understand better.
-    
-    function myValidation() {
-        if(input.validity.typeMismatch) {
-            error.innerHTML = 'Check your email please!';
-            error.classList.add('error-message');
-            input.classList.add('red-border');
-        } else {
-            error.innerHTML = '';
-            input.classList.remove('red-border');
-        }
-    }
     
     
 ### Continued development
@@ -78,7 +55,6 @@ Users should be able to:
 
 - [Stack Overflow](https://www.stackoverflow.com) 
 - [Google](https://www.google.com) 
-
 
 
 ## Author
