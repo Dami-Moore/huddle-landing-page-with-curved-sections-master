@@ -1,5 +1,4 @@
 /* Genral stylings */
-
 html {
     font-size: 16px;
 }
@@ -47,7 +46,7 @@ nav {
 /* Hero */
 .hero {
     width: 71%;
-    margin: 200px auto 100px;
+    margin: 200px auto 120px;
     text-align: center;
 }
 
@@ -72,7 +71,7 @@ nav {
     background-color: #FF52C1;
     border-radius: 50px;
     border: thin;
-    margin: 50px auto 120px;
+    margin: 50px auto 100px;
     box-shadow: 0 6px 13px #adb9bd ;
 }
 
@@ -84,7 +83,7 @@ nav {
 /* Numbers */
 
 .numbers {
-    width: 61%;
+    width: 60%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -94,12 +93,14 @@ nav {
 .numbers h2 {
     font-size: 6rem;
     font-weight: 700;
+    margin: 0;
 }
 
 .numbers p {
     font-size: 1.5rem;
     text-align: center;
     color: #808E9A;
+    margin: 0;
 }
 
 .box img { 
@@ -428,7 +429,6 @@ button:hover {
 
 
 @media only screen and (max-width: 700px) {
-
     .logo {
         min-width: 30%;
     }
@@ -561,7 +561,7 @@ button:hover {
 
 
     .your-users .illustration {
-        width: 75%;
+        width: 80%;
         margin: 0 auto 50px;
     }
 
@@ -631,3 +631,4 @@ button:hover {
         font-size: 0.5rem;
     }
 }
+
