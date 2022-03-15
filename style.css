@@ -322,7 +322,7 @@ footer p {
     font-size: 0.875rem;
 }
 
-form {
+.form {
     width: 100%;
     position: relative;
 }
