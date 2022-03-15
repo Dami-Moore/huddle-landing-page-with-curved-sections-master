@@ -10,6 +10,7 @@ body {
 }
 
 
+
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
 }
@@ -269,8 +270,7 @@ footer p {
 .footer-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 100px;
-    padding: 100px 15% 25px 5%;
+    padding: 100px 5%;
     background-color:  hsl(192, 100%, 9%);
 }
 
@@ -315,13 +315,12 @@ form {
     position: relative;
 }
 
+
 input {
     border-radius: 6px;
     border: 1px solid black;
     height: 40px;
-    width: 80%;
-    margin-right: 40px;
-    padding-inline: 20px;
+    width: 70%;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
 }
@@ -344,8 +343,8 @@ input:valid {
     background-color: #FF52C1;
     color: white;
     position: absolute;
-    right: -30%;
-    bottom: 2px;
+    right: -20px;
+    bottom: 2.5px;
 }
 
 
@@ -409,14 +408,12 @@ button:hover {
 
     .subscribe {
         position: inherit;
-        margin-left: 65%;
+        margin-left: 62%;
         margin-top: 30px;  
     }
 
-
-
     input {
-        width: 90%;
+        width: 100%;
     }
 
     .contact {
@@ -429,6 +426,7 @@ button:hover {
 
 
 @media only screen and (max-width: 700px) {
+
     .logo {
         min-width: 30%;
     }
@@ -464,7 +462,7 @@ button:hover {
     }
 
     .numbers {
-        width: 43%;
+        width: 60%;
         flex-direction: column;
         height: 400px;
     }
@@ -585,7 +583,7 @@ button:hover {
 
     .footer-container {
         flex-direction: column-reverse;
-        padding: 100px 7% 10px 7%;
+        padding: 100px 5% 10px;
     }
 
     .footer-background-image {
@@ -601,13 +599,14 @@ button:hover {
     }
 
     .subscribe {
+        padding: 1% 9%;
         position: inherit;
-        margin-left: 62%;
+        margin-left: 58%;
         margin-top: 30px;
     }
 
     input {
-        width: 85%;
+        width: 100%;
     }
 
     .contact {
